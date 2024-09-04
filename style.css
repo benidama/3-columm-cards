@@ -1,0 +1,95 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: hsl(0, 0%, 95%);
+}
+
+.company-product {
+  padding: 50px 35px 30px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.first-card {
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 5px 0px 0px 5px;
+}
+
+.second-card {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.third-card {
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0px 5px 5px 0px;
+}
+
+.car-type {
+  width: 40px;
+  height: 25px;
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 10px;
+  font-family: "Lexend Deca";
+  line-height: 15px;
+}
+
+a {
+  color: hsl(0, 0%, 95%);
+  text-decoration: none;
+  font-size: 10px;
+}
+
+h1 {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: "Big Shoulders Display";
+}
+
+.link-txt {
+  color: hsl(31, 77%, 52%);
+}
+
+.link-button {
+  color: hsl(184, 100%, 22%);
+}
+
+.more-info {
+  color: hsl(179, 100%, 13%);
+}
+
+.button {
+  width: 100px;
+  height: 30px;
+  border-radius: 25px;
+  margin-top: 25px;
+  border: 1px solid hsl(0, 0%, 95%);
+}
+
+@media only screen and (max-width: 375px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+  }
+
+  .company-product {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    gap: 20px;
+  }
+}
