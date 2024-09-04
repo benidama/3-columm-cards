@@ -55,6 +55,7 @@ a {
 h1 {
   color: hsla(0, 0%, 100%, 0.75);
   font-family: "Big Shoulders Display";
+  text-transform: uppercase;
 }
 
 .link-txt {
@@ -82,14 +83,51 @@ h1 {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 100vh;
+    height: 750px;
+    margin: auto;
   }
 
   .company-product {
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    max-width: 350px;
+    padding-left: 23px;
+    min-width: 180px;
+    max-width: 180px;
     gap: 20px;
+    position: relative;
+  }
+
+  .first-card {
+    border-radius: 5px 5px 0px 0px;
+  }
+
+  .third-card {
+    border-radius: 0px 0px 5px 5px;
+  }
+
+  h1 {
+    font-size: 18px;
+    margin-top: 5px;
+    position: relative;
+    top: 4px;
+  }
+
+  p,
+  a {
+    font-size: 7px;
+  }
+
+  p {
+    margin-bottom: 19px;
+  }
+  .button {
+    margin-bottom: 10px;
+    position: absolute;
+    bottom: 10px;
+    width: 60px;
+    height: 20px;
+  }
+
+  .car-type {
+    position: absolute;
+    top: 20px;
   }
 }
